@@ -1,4 +1,5 @@
 public class Main {
+    
     public static void main(String[] args) {
 
 
@@ -14,6 +15,12 @@ public class Main {
         }
 
         System.out.println("Баланс счета: " + total);
+
+        if (refill > 1000) {
+            System.out.println("Количество бонусов: " + bonus);
+        } else {
+            System.out.println("Количество бонусов: 0");
+        }
 
 
     }
